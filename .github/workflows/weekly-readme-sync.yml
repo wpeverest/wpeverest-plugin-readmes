@@ -1,0 +1,124 @@
+name: Weekly readme.txt sync
+
+on:
+    schedule:
+        - cron: "0 6 * * 1"
+    workflow_dispatch:
+
+jobs:
+    fetch-readmes:
+        runs-on: ubuntu-latest
+
+        permissions:
+            contents: write
+
+        steps:
+            - name: Checkout this repository
+              uses: actions/checkout@v4
+              with:
+                  token: ${{ secrets.REPO_ACCESS_TOKEN }}
+                  fetch-depth: 0
+
+            - name: Parse repositories.yml → repo_list.txt
+              run: |
+                  ruby -r yaml -e "
+                    data = YAML.load_file('repositories.yml')
+                    repos = data['repositories'] || []
+                    repos.each do |r|
+                      url = r['url']
+                      folder = r['folder'] || url.split('/').last
+                      puts \"#{url}|#{folder}\"
+                    end
+                  " > repo_list.txt
+
+                  echo "Repositories:"
+                  cat repo_list.txt
+
+            - name: Sync readme.txt using GitHub API (fast)
+              env:
+                  TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
+              run: |
+                  set -e
+
+                  echo "## Readme Sync Report" >> $GITHUB_STEP_SUMMARY
+                  echo "" >> $GITHUB_STEP_SUMMARY
+
+                  changed=false
+                  processed_folders=()
+
+                  # Create index
+                  echo "# Plugin Readme Index" > README.md
+                  echo "" >> README.md
+                  echo "| Plugin | Status |" >> README.md
+                  echo "|--------|--------|" >> README.md
+
+                  while IFS='|' read -r url folder; do
+                    [ -z "$url" ] && continue
+
+                    repo_path=${url#https://github.com/}
+                    api_url="https://api.github.com/repos/$repo_path/contents/readme.txt"
+
+                    echo "Processing: $repo_path → $folder"
+                    processed_folders+=("$folder")
+
+                    # Retry up to 3 times
+                    for i in 1 2 3; do
+                      response=$(curl -s \
+                        -H "Authorization: Bearer $TOKEN" \
+                        -H "Accept: application/vnd.github.raw" \
+                        "$api_url" || true)
+
+                      if [ -n "$response" ] && [[ "$response" != *"Not Found"* ]]; then
+                        break
+                      fi
+                      echo "Retry $i..."
+                      sleep 2
+                    done
+
+                    if [[ "$response" == *"Not Found"* || -z "$response" ]]; then
+                      echo "- \`$folder\` ⚠ readme.txt missing" >> $GITHUB_STEP_SUMMARY
+                      echo "| $folder | ⚠ Missing |" >> README.md
+                      continue
+                    fi
+
+                    mkdir -p "$folder"
+                    target="$folder/readme.txt"
+
+                    if [ -f "$target" ]; then
+                      if diff -q <(echo "$response") "$target" >/dev/null; then
+                        echo "- \`$folder/readme.txt\` ✓ unchanged" >> $GITHUB_STEP_SUMMARY
+                        echo "| $folder | ✓ Unchanged |" >> README.md
+                        continue
+                      fi
+                    fi
+
+                    echo "$response" > "$target"
+                    echo "- \`$folder/readme.txt\` 🔄 updated" >> $GITHUB_STEP_SUMMARY
+                    echo "| $folder | 🔄 Updated |" >> README.md
+                    changed=true
+
+                  done < repo_list.txt
+
+                  # Remove folders no longer in repositories.yml
+                  for d in */ ; do
+                    d=${d%/}
+                    if ! printf '%s\n' "${processed_folders[@]}" | grep -qx "$d"; then
+                      echo "Removing deleted repo folder: $d"
+                      rm -rf "$d"
+                      changed=true
+                    fi
+                  done
+
+                  if [ "$changed" = true ]; then
+                    echo "changes=true" >> $GITHUB_ENV
+                  fi
+
+            - name: Commit & push only if changed
+              if: env.changes == 'true'
+              run: |
+                  git config user.name "asheshmagar"
+                  git config user.email "ashesh.ido@gmail.com"
+
+                  git add .
+                  git commit -m "chore: sync readme.txt from source repositories [auto]"
+                  git push
