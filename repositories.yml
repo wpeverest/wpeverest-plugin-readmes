@@ -48,7 +48,38 @@ repositories:
   - url: https://github.com/wpeverest/user-registration-frontend-listing
   - url: https://github.com/wpeverest/user-registration-content-restriction
   - url: https://github.com/wpeverest/user-registration-sms-notifications
-  - url: https://github.com/wpeverest/user-registration-automation
   - url: https://github.com/wpeverest/user-registration-extras
-  - url: https://github.com/wpeverest/user-registration-form-templates
   - url: https://github.com/wpeverest/user-registration-two-factor-authentication-totp
+  - url: https://github.com/wpeverest/everest-forms-pro
+  - url: https://github.com/wpeverest/everest-forms
+  - url: https://github.com/wpeverest/everest-forms-google-sheets
+  - url: https://github.com/wpeverest/everest-forms-style-templates
+  - url: https://github.com/wpeverest/everest-forms-icontact
+  - url: https://github.com/wpeverest/everest-forms-woocommerce
+  - url: https://github.com/wpeverest/everest-forms-trello
+  - url: https://github.com/wpeverest/everest-forms-salesflare
+  - url: https://github.com/wpeverest/everest-forms-onepagecrm
+  - url: https://github.com/wpeverest/everest-forms-moosend
+  - url: https://github.com/wpeverest/everest-forms-sendfox
+  - url: https://github.com/wpeverest/everest-forms-mailpoet
+  - url: https://github.com/wpeverest/everest-forms-save-and-continue
+  - url: https://github.com/wpeverest/everest-forms-form-analytics
+  - url: https://github.com/wpeverest/everest-forms-authorize-net
+  - url: https://github.com/wpeverest/everest-forms-extension
+  - url: https://github.com/wpeverest/everest-forms-conversational-forms
+  - url: https://github.com/wpeverest/everest-forms-getresponse
+  - url: https://github.com/wpeverest/everest-forms-sendinblue
+  - url: https://github.com/wpeverest/everest-forms-cloud-storage
+  - url: https://github.com/wpeverest/everest-forms-constant-contact
+  - url: https://github.com/wpeverest/everest-forms-salesforce
+  - url: https://github.com/wpeverest/everest-forms-zoho
+  - url: https://github.com/wpeverest/everest-forms-hubspot
+  - url: https://github.com/wpeverest/everest-forms-frontend-listing
+  - url: https://github.com/wpeverest/everest-forms-coupons
+  - url: https://github.com/wpeverest/everest-forms-drip
+  - url: https://github.com/wpeverest/everest-forms-pipedrive
+  - url: https://github.com/wpeverest/everest-forms-sms-notifications
+  - url: https://github.com/wpeverest/everest-forms-razorpay
+  - url: https://github.com/wpeverest/everest-forms-calculations
+  - url: https://github.com/wpeverest/everest-forms-repeater-fields
+  - url: https://github.com/wpeverest/everest-forms-abandonment
