@@ -34,7 +34,7 @@
 | user-registration-stripe | ✓ Unchanged |
 | user-registration-repeater-fields | ✓ Unchanged |
 | user-registration-conversational-forms | ✓ Unchanged |
-| user-registration-calculations | ⚠ Missing |
+| user-registration-calculations | 🔄 Updated |
 | user-registration-save-and-continue | ✓ Unchanged |
 | user-registration-zapier | ✓ Unchanged |
 | user-registration-profile-completeness | ✓ Unchanged |
@@ -52,8 +52,8 @@
 | user-registration-extras | ✓ Unchanged |
 | user-registration-two-factor-authentication-totp | ✓ Unchanged |
 | everest-forms-pro | ⚠ Missing |
-| everest-forms | 🔄 Updated |
-| everest-forms-google-sheets | 🔄 Updated |
+| everest-forms | ✓ Unchanged |
+| everest-forms-google-sheets | ✓ Unchanged |
 | everest-forms-style-templates | ⚠ Missing |
 | everest-forms-icontact | ⚠ Missing |
 | everest-forms-woocommerce | ⚠ Missing |
@@ -63,16 +63,16 @@
 | everest-forms-moosend | ⚠ Missing |
 | everest-forms-sendfox | ⚠ Missing |
 | everest-forms-mailpoet | ⚠ Missing |
-| everest-forms-save-and-continue | 🔄 Updated |
+| everest-forms-save-and-continue | ✓ Unchanged |
 | everest-forms-form-analytics | ⚠ Missing |
 | everest-forms-authorize-net | ⚠ Missing |
-| everest-forms-extension | 🔄 Updated |
+| everest-forms-extension | ✓ Unchanged |
 | everest-forms-conversational-forms | ⚠ Missing |
 | everest-forms-getresponse | ⚠ Missing |
 | everest-forms-sendinblue | ⚠ Missing |
 | everest-forms-cloud-storage | ⚠ Missing |
 | everest-forms-constant-contact | ⚠ Missing |
-| everest-forms-salesforce | 🔄 Updated |
+| everest-forms-salesforce | ✓ Unchanged |
 | everest-forms-zoho | ⚠ Missing |
 | everest-forms-hubspot | ⚠ Missing |
 | everest-forms-frontend-listing | ⚠ Missing |
@@ -82,5 +82,5 @@
 | everest-forms-sms-notifications | ⚠ Missing |
 | everest-forms-razorpay | ⚠ Missing |
 | everest-forms-calculations | ⚠ Missing |
-| everest-forms-repeater-fields | 🔄 Updated |
-| everest-forms-abandonment | 🔄 Updated |
+| everest-forms-repeater-fields | ✓ Unchanged |
+| everest-forms-abandonment | ✓ Unchanged |
