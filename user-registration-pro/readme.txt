@@ -3,8 +3,8 @@ Contributors: WPEverest
 Tags: membership, subscription, content restriction, user profile, user registration
 Requires at least: 5.5
 Requires PHP: 7.4
-Tested up to: 6.9
-Stable tag: 6.1.1
+Tested up to: 6.9.1
+Stable tag: 6.1.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -266,6 +266,25 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 21. User Account Page –  Vertical Layout
 
 == Changelog ==
+= 6.1.2    - 12/02/2026 =
+* Security - Arbitrary code execution through shortcode.
+* Enhance  - Default WordPress login form is no longer forced.
+* Enhance  - Default filter set to All for payments table.
+* Enhance  - Added support for other search parameters on Members table.
+* Enhance  - Deactivation reason pop up update.
+* Fix      - Menu restriction rule causing rules after it to not work.
+* Fix      - Admins losing access to the site when a Whole site restriction was enabled.
+* Fix      - Content Restriction CSS not loading due to missing styles.
+* Fix      - My account layout conflicts with WooCommerce my account sync.
+* Fix      - Unable to edit member emails from the admin side.
+* Fix      - Local currency notice displaying upon free plan creation.
+* Fix      - Profile picture upload area going blank upon image update.
+* Fix      - Warnings shown during renewal process.
+* Fix      - Warnings shown during membership cancellation process.
+* Fix      - Admin styles loading in the frontend when using Oxygen builder.
+* Fix      - Addons not redirecting to the proper places.
+* Fix      - Undefined error in redirection url after renewal.
+* Tweak    - Notice design update for registration page selection in settings.
 
 = 6.1.1    - 02/2/2026 =
 * Fix      - Empty migrated rules showing up when toggling enabled/disabled state.

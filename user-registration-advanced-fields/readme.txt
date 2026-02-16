@@ -3,8 +3,8 @@ Contributors: WPEverest
 Tags: user registration, addon, advanced fields, extra fields
 Requires at least: 5.2
 Requires PHP: 7.4
-Tested up to: 6.9
-Stable tag: 1.6.19
+Tested up to: 6.9.1
+Stable tag: 1.6.20
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -40,6 +40,9 @@ Yes, the plugin is designed to work with any themes that have been coded followi
 == Screenshots ==
 
 == Changelog ==
+
+= 1.6.20    - 02/12/2026
+* Fix       - Upload button appearing blank after profile picture upload.
 
 = 1.6.19    - 02/02/2026
 * Fix       - Select2 responsive design issue.

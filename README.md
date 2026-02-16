@@ -4,10 +4,10 @@
 |--------|--------|
 | user-registration-woocommerce | ✓ Unchanged |
 | user-registration-file-upload | ✓ Unchanged |
-| user-registration-pro | ✓ Unchanged |
-| user-registration | ✓ Unchanged |
+| user-registration-pro | 🔄 Updated |
+| user-registration | 🔄 Updated |
 | user-registration-google-sheets | ✓ Unchanged |
-| user-registration-advanced-fields | ✓ Unchanged |
+| user-registration-advanced-fields | 🔄 Updated |
 | user-registration-customize-my-account | ✓ Unchanged |
 | user-registration-private-notes | ✓ Unchanged |
 | user-registration-conditional-logic | ✓ Unchanged |
@@ -34,7 +34,7 @@
 | user-registration-stripe | ✓ Unchanged |
 | user-registration-repeater-fields | ✓ Unchanged |
 | user-registration-conversational-forms | ✓ Unchanged |
-| user-registration-calculations | 🔄 Updated |
+| user-registration-calculations | ✓ Unchanged |
 | user-registration-save-and-continue | ✓ Unchanged |
 | user-registration-zapier | ✓ Unchanged |
 | user-registration-profile-completeness | ✓ Unchanged |
