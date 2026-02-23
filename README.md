@@ -4,10 +4,10 @@
 |--------|--------|
 | user-registration-woocommerce | ✓ Unchanged |
 | user-registration-file-upload | ✓ Unchanged |
-| user-registration-pro | 🔄 Updated |
-| user-registration | 🔄 Updated |
+| user-registration-pro | ✓ Unchanged |
+| user-registration | ✓ Unchanged |
 | user-registration-google-sheets | ✓ Unchanged |
-| user-registration-advanced-fields | 🔄 Updated |
+| user-registration-advanced-fields | ✓ Unchanged |
 | user-registration-customize-my-account | ✓ Unchanged |
 | user-registration-private-notes | ✓ Unchanged |
 | user-registration-conditional-logic | ✓ Unchanged |
@@ -52,7 +52,7 @@
 | user-registration-extras | ✓ Unchanged |
 | user-registration-two-factor-authentication-totp | ✓ Unchanged |
 | everest-forms-pro | ⚠ Missing |
-| everest-forms | ✓ Unchanged |
+| everest-forms | 🔄 Updated |
 | everest-forms-google-sheets | ✓ Unchanged |
 | everest-forms-style-templates | ⚠ Missing |
 | everest-forms-icontact | ⚠ Missing |
