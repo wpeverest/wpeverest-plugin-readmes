@@ -4,7 +4,7 @@ Tags: user registration, addon, email templates,
 Requires at least: 5.5
 Requires PHP at least: 7.4
 Tested up to: 6.9
-Stable tag: 1.2.9
+Stable tag: 1.2.10
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -32,9 +32,11 @@ To install this plugin, please refer to the guide here: [http://codex.wordpress.
 
 == Changelog =
 
+= 1.2.10   - 24/02/2026 =
+* Tweak    - Email templates fetch url update.
+
 = 1.2.9    - 14/01/2026 =
 * Tweak    - Email templates setting placement.
-* Fix      - 
 
 = 1.2.8    - 13/11/2025 =
 * Tweak    - Properly handle table tags in email templates.
