@@ -2,16 +2,16 @@
 
 | Plugin | Status |
 |--------|--------|
-| user-registration-woocommerce | ✓ Unchanged |
-| user-registration-file-upload | ✓ Unchanged |
+| user-registration-woocommerce | 🔄 Updated |
+| user-registration-file-upload | 🔄 Updated |
 | user-registration-pro | 🔄 Updated |
 | user-registration | 🔄 Updated |
-| user-registration-google-sheets | ✓ Unchanged |
+| user-registration-google-sheets | 🔄 Updated |
 | user-registration-advanced-fields | ✓ Unchanged |
-| user-registration-customize-my-account | ✓ Unchanged |
+| user-registration-customize-my-account | 🔄 Updated |
 | user-registration-private-notes | ✓ Unchanged |
-| user-registration-conditional-logic | ✓ Unchanged |
-| user-registration-import-users | ✓ Unchanged |
+| user-registration-conditional-logic | 🔄 Updated |
+| user-registration-import-users | 🔄 Updated |
 | user-registration-invite-codes | ✓ Unchanged |
 | user-registration-two-factor-authentication | ✓ Unchanged |
 | user-registration-authorize-net | ✓ Unchanged |
@@ -22,8 +22,8 @@
 | user-registration-profile-connect | ✓ Unchanged |
 | user-registration-geolocation | ✓ Unchanged |
 | user-registration-cloud-storage | ✓ Unchanged |
-| user-registration-activecampaign | ✓ Unchanged |
-| user-registration-brevo | ✓ Unchanged |
+| user-registration-activecampaign | 🔄 Updated |
+| user-registration-brevo | 🔄 Updated |
 | user-registration-social-connect | ✓ Unchanged |
 | user-registration-convertkit | ✓ Unchanged |
 | user-registration-klaviyo | ✓ Unchanged |
@@ -43,7 +43,7 @@
 | user-registration-form-restriction | ✓ Unchanged |
 | user-registration-field-visibility | ✓ Unchanged |
 | user-registration-multi-part | ✓ Unchanged |
-| user-registration-post-submissions | ✓ Unchanged |
+| user-registration-post-submissions | 🔄 Updated |
 | user-registration-membership | ✓ Unchanged |
 | user-registration-payments | ✓ Unchanged |
 | user-registration-frontend-listing | ✓ Unchanged |
@@ -52,7 +52,7 @@
 | user-registration-extras | ✓ Unchanged |
 | user-registration-two-factor-authentication-totp | ✓ Unchanged |
 | everest-forms-pro | ⚠ Missing |
-| everest-forms | ✓ Unchanged |
+| everest-forms | 🔄 Updated |
 | everest-forms-google-sheets | ✓ Unchanged |
 | everest-forms-style-templates | ⚠ Missing |
 | everest-forms-icontact | ⚠ Missing |

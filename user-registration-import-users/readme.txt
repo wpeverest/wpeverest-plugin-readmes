@@ -4,7 +4,7 @@ Tags: user registration, addon, import users,
 Requires at least: 5.2
 Requires PHP at least: 7.4
 Tested up to: 6.9
-Stable tag: 1.0.12
+Stable tag: 1.0.13
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -31,6 +31,9 @@ If you need help with customisation you will need to find and hire a developer c
 To install this plugin, please refer to the guide here: [http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation)
 
 == Changelog ==
+
+= 1.0.13   - -/03/2026 =
+* Enhance  - Improved the validation notice upon import success or failure.
 
 = 1.0.12   - 22/01/2026 =
 * Fix      - JS enqueue issue.

@@ -2,7 +2,7 @@
 Contributors: WPEverest
 Tags: user registration, addon, google-sheets
 Tested up to: 6.9
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -28,6 +28,9 @@ If you need help with customization you will need to find and hire a developer c
 To install this plugin, please refer to the guide here: [http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation)
 
 == Changelog ==
+
+= 1.0.5    - 00/03/2026 =
+* Fix      - UI/UX improvements in connection areas.
 
 = 1.0.4    - 02/02/2026 =
 * Fix      - Add new connection issue.

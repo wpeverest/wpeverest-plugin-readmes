@@ -4,7 +4,7 @@ Tags: user registration, addon, woocommerce, user registration woocommerce
 Requires at least: 5.5
 Requires PHP: 7.4
 Tested up to: 6.9
-Stable tag: 1.6.7
+Stable tag: 1.6.8
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -40,6 +40,9 @@ Yes, the plugin is designed to work with any themes that have been coded followi
 == Screenshots ==
 
 == Changelog ==
+
+= 1.6.8    - -/03/2026 =
+* Fix      - Removed incompatible membership mapping for better clarity.
 
 = 1.6.7    - 06/02/2026 =
 * Fix      - Save button missing on settings.

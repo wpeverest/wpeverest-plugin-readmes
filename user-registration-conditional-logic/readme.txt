@@ -4,7 +4,7 @@ Tags: user registration, addon, file , user registration conditional logic
 Requires at least: 5.5
 Requires PHP: 7.4
 Tested up to: 6.9
-Stable tag: 1.5.6
+Stable tag: 1.5.7
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -43,6 +43,9 @@ Yes, the plugin is designed to work with any themes that have been coded followi
 == Screenshots ==
 
 == Changelog ==
+
+= 1.5.7    - -/03/2026 =
+* Feature  - Added support for Membership field in conditional redirection.
 
 = 1.5.6    - 22/01/2026 =
 * Fix      - Cl Map content not being rendered properly.
