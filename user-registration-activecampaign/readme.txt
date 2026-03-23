@@ -41,7 +41,7 @@ Yes, the plugin is designed to work with any themes that have been coded followi
 
 == Changelog ==
 
-= 1.1.10   - -/03/2026 =
+= 1.1.10   - 18/03/2026 =
 * Fix      - Missing data sync to the Active campaign list.
 * Fix      - Fatal errors showing up when ActiveCampaign API failed.
 

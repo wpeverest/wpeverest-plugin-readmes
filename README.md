@@ -11,7 +11,7 @@
 | user-registration-customize-my-account | 🔄 Updated |
 | user-registration-private-notes | ✓ Unchanged |
 | user-registration-conditional-logic | 🔄 Updated |
-| user-registration-import-users | 🔄 Updated |
+| user-registration-import-users | ✓ Unchanged |
 | user-registration-invite-codes | ✓ Unchanged |
 | user-registration-two-factor-authentication | ✓ Unchanged |
 | user-registration-authorize-net | ✓ Unchanged |
@@ -52,7 +52,7 @@
 | user-registration-extras | ✓ Unchanged |
 | user-registration-two-factor-authentication-totp | ✓ Unchanged |
 | everest-forms-pro | ⚠ Missing |
-| everest-forms | 🔄 Updated |
+| everest-forms | ✓ Unchanged |
 | everest-forms-google-sheets | ✓ Unchanged |
 | everest-forms-style-templates | ⚠ Missing |
 | everest-forms-icontact | ⚠ Missing |

@@ -32,7 +32,7 @@ To install this plugin, please refer to the guide here: [http://codex.wordpress.
 
 == Changelog ==
 
-= 1.2.15   - -/03/2026 =
+= 1.2.15   - 18/03/2026 =
 
 * Fix      - Backend design issue with horizontal layout.
 * Fix      - Padding issue with edit profile buttons.

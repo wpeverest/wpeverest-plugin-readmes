@@ -44,7 +44,7 @@ Yes, the plugin is designed to work with any themes that have been coded followi
 
 == Changelog ==
 
-= 1.5.7    - -/03/2026 =
+= 1.5.7    - 18/03/2026 =
 * Feature  - Added support for Membership field in conditional redirection.
 
 = 1.5.6    - 22/01/2026 =

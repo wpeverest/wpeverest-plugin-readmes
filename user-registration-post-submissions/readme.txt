@@ -32,7 +32,8 @@ To install this plugin, please refer to the guide here: [http://codex.wordpress.
 
 == Changelog ==
 
-= 1.0.5    - 00/03/2025 =
+= 1.0.5    - 18/03/2025 =
+
 * Fix      - Addon tab ordering.
 
 = 1.0.4    - 14/02/2025 =

@@ -29,7 +29,7 @@ To install this plugin, please refer to the guide here: [http://codex.wordpress.
 
 == Changelog ==
 
-= 1.0.5    - 00/03/2026 =
+= 1.0.5    - 18/03/2026 =
 * Fix      - UI/UX improvements in connection areas.
 
 = 1.0.4    - 02/02/2026 =

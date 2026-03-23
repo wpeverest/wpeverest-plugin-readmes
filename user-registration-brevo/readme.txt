@@ -40,7 +40,7 @@ Yes, the plugin is designed to work with any themes that have been coded followi
 
 == Changelog ==
 
-= 1.0.7    - 12/01/2026 =
+= 1.0.7    - 18/03/2026 =
 
 * Fix      - Error showing up while updating profile with Brevo addon.
 

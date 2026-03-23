@@ -32,7 +32,7 @@ To install this plugin, please refer to the guide here: [http://codex.wordpress.
 
 == Changelog =
 
-= 1.2.11   - -/03/2026 =
+= 1.2.11   - 18/03/2026 =
 
 * Fix      - Cancelling Email template customizer redirected to access error page.
 * Fix      - Email setting container showing irrelevant notices.

@@ -41,7 +41,8 @@ Yes, the plugin is designed to work with any themes that have been coded followi
 
 == Changelog ==
 
-= 1.6.8    - -/03/2026 =
+= 1.6.8    - 18/03/2026 =
+
 * Fix      - Removed incompatible membership mapping for better clarity.
 
 = 1.6.7    - 06/02/2026 =

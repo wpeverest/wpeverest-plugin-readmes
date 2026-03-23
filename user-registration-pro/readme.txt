@@ -267,7 +267,7 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 
 == Changelog ==
 
-= 6.1.4    - -/3/2026 =
+= 6.1.4    - 18/3/2026 =
 
 * Feature  - Feature to show bank details directly within the form.
 * Feature  - Payment fetch cron added for better subscription sync with Stripe.
@@ -292,6 +292,8 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 
 * Fix      - Added proper capability checks.
 * Fix      - Missing .css file throwing errors.
+* Fix      - Capability check issue on embed form.
+* Fix      - Global hidden css conflicting on site.
 * Fix      - Create subscription table, excessive gap.
 * Fix      - Raw CSS showing for certain email platforms.
 * Fix      - Membership fields draggable outside of bounds.
@@ -306,14 +308,20 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 * Fix      - Missing connection indicators for mailing integrations.
 * Fix      - Edit profile failing when permalinks were set to plain.
 * Fix      - Email settings container showing irrelevant notice messages.
+* Fix      - Trash, published filters missing in registration form table.
 * Fix      - Content restriction block styles and shortcode not rendering.
+* Fix      - Full amount upgrade providing full amount discount in stripe.
+* Fix      - Payment gateway layout overflow and inconsistent option width.
 * Fix      - Login | Logout option not working properly with certain themes.
 * Fix      - URM shortcode contents appearing twice when used with Elementor.
 * Fix      - Stripe registrations encountering fatal error in some instances.
 * Fix      - Auto Approval and auto login not working in case of PayPal payments.
+* Fix      - Paypal one time payment error with four digit price membership plan.
 * Fix      - Masteriyo course unassigned to membership still showing sign up button.
+* Fix      - Duplicate order created in payment history after successful payment with stripe.
 * Fix      - Fatal error when upgrading from one-time payment to subscription plan with stripe.
 * Fix      - Legacy my account dashboard content visible in profile details tab on some old instances.
+* Fix      - Upon reactivation of stripe subscription, the cancel at expiry is not being removed in stripe.
 
 = 6.1.3    - 2/24/2026 =
 * Enhance  - Membership field not draggable when no membership plans created, notice is shown.

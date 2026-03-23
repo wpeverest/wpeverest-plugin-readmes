@@ -4,7 +4,7 @@ Tags: user registration, addon, file , user registration file upload
 Requires at least: 5.5
 Requires PHP: 7.4
 Tested up to: 6.9
-Stable tag: 1.3.21
+Stable tag: 1.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -41,8 +41,10 @@ Yes, the plugin is designed to work with any themes that have been coded followi
 
 == Changelog ==
 
-= 1.3.21   - -/03/2026 =
+= 1.4.0   - 18/03/2026 =
+
 * Fix      - "Download all attachments" option reintroduced.
+* Enhance  - File upload settings now moved into Registration & Login settings.
 
 = 1.3.20   - 02/02/2026 =
 * Fix      - File upload issue on edit profile.
