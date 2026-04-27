@@ -4,7 +4,7 @@ Tags: user registration, addon, invite, codes
 Requires at least: 5.2
 Requires PHP: 7.4
 Tested up to: 6.9
-Stable tag: 1.2.8
+Stable tag: 1.2.9
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -31,6 +31,10 @@ If you need help with customisation you will need to find and hire a developer c
 To install this plugin, please refer to the guide here: [http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation)
 
 == Changelog ==
+
+= 1.2.9    - 27/04/2026 =
+* Fix      - Bulk invite code deletion not working.
+* Fix      - Invite code search not working.
 
 = 1.2.8    - 22/01/2025 =
 * Fix      - Settings not visible in settings section.

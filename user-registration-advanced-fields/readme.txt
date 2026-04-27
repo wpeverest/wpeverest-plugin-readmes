@@ -4,7 +4,7 @@ Tags: user registration, addon, advanced fields, extra fields
 Requires at least: 5.2
 Requires PHP: 7.4
 Tested up to: 6.9.1
-Stable tag: 1.6.20
+Stable tag: 1.6.21
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -40,6 +40,10 @@ Yes, the plugin is designed to work with any themes that have been coded followi
 == Screenshots ==
 
 == Changelog ==
+
+= 1.6.21    - 27/04/2026
+* Fix       - Unvalidated file upload security issue.
+* Fix       - Profile photo cropping causes image and buuttons to disappear.
 
 = 1.6.20    - 02/12/2026
 * Fix       - Upload button appearing blank after profile picture upload.
