@@ -34,6 +34,7 @@ To install this plugin, please refer to the guide here: [http://codex.wordpress.
 
 = 1.0.13    - 27/04/2026 =
 * Enhance   - Logger structure.
+* Fix       - Use member_id instead of user_id in payment mail.
 
 = 1.0.12    - 22/01/2026 =
 * Fix       - Empty payment settings.

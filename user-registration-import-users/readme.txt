@@ -3,7 +3,7 @@ Contributors: WPEverest
 Tags: user registration, addon, import users,
 Requires at least: 5.2
 Requires PHP at least: 7.4
-Tested up to: 6.9
+Tested up to: 6.9.4
 Stable tag: 1.0.14
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html

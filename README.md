@@ -4,8 +4,8 @@
 |--------|--------|
 | user-registration-woocommerce | ✓ Unchanged |
 | user-registration-file-upload | ✓ Unchanged |
-| user-registration-pro | ✓ Unchanged |
-| user-registration | ✓ Unchanged |
+| user-registration-pro | 🔄 Updated |
+| user-registration | 🔄 Updated |
 | user-registration-google-sheets | ✓ Unchanged |
 | user-registration-advanced-fields | 🔄 Updated |
 | user-registration-customize-my-account | ✓ Unchanged |
@@ -15,7 +15,7 @@
 | user-registration-invite-codes | 🔄 Updated |
 | user-registration-two-factor-authentication | ✓ Unchanged |
 | user-registration-authorize-net | 🔄 Updated |
-| user-registration-mollie | 🔄 Updated |
+| user-registration-mollie | ✓ Unchanged |
 | user-registration-email-templates | ✓ Unchanged |
 | user-registration-pdf-form-submission | ✓ Unchanged |
 | user-registration-mailerlite | ✓ Unchanged |
@@ -52,7 +52,7 @@
 | user-registration-extras | ✓ Unchanged |
 | user-registration-two-factor-authentication-totp | ✓ Unchanged |
 | everest-forms-pro | ⚠ Missing |
-| everest-forms | ✓ Unchanged |
+| everest-forms | 🔄 Updated |
 | everest-forms-google-sheets | ✓ Unchanged |
 | everest-forms-style-templates | ⚠ Missing |
 | everest-forms-icontact | ⚠ Missing |

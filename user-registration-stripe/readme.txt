@@ -3,7 +3,7 @@ Contributors: WPEverest
 Tags: user registration, addon, stripe,
 Requires at least: 5.5
 Requires PHP: 7.2
-Tested up to: 6.9
+Tested up to: 6.9.4
 Stable tag: 1.3.16
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
