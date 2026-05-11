@@ -4,17 +4,17 @@
 |--------|--------|
 | user-registration-woocommerce | ✓ Unchanged |
 | user-registration-file-upload | ✓ Unchanged |
-| user-registration-pro | 🔄 Updated |
-| user-registration | 🔄 Updated |
+| user-registration-pro | ✓ Unchanged |
+| user-registration | ✓ Unchanged |
 | user-registration-google-sheets | ✓ Unchanged |
-| user-registration-advanced-fields | 🔄 Updated |
+| user-registration-advanced-fields | ✓ Unchanged |
 | user-registration-customize-my-account | ✓ Unchanged |
 | user-registration-private-notes | ✓ Unchanged |
-| user-registration-conditional-logic | 🔄 Updated |
-| user-registration-import-users | 🔄 Updated |
-| user-registration-invite-codes | 🔄 Updated |
+| user-registration-conditional-logic | ✓ Unchanged |
+| user-registration-import-users | ✓ Unchanged |
+| user-registration-invite-codes | ✓ Unchanged |
 | user-registration-two-factor-authentication | ✓ Unchanged |
-| user-registration-authorize-net | 🔄 Updated |
+| user-registration-authorize-net | ✓ Unchanged |
 | user-registration-mollie | ✓ Unchanged |
 | user-registration-email-templates | ✓ Unchanged |
 | user-registration-pdf-form-submission | ✓ Unchanged |
@@ -31,7 +31,7 @@
 | user-registration-mailpoet | ✓ Unchanged |
 | user-registration-salesforce | ✓ Unchanged |
 | user-registration-file-downloads | ✓ Unchanged |
-| user-registration-stripe | 🔄 Updated |
+| user-registration-stripe | ✓ Unchanged |
 | user-registration-repeater-fields | ✓ Unchanged |
 | user-registration-conversational-forms | ✓ Unchanged |
 | user-registration-calculations | ✓ Unchanged |
