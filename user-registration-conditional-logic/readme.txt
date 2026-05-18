@@ -4,7 +4,7 @@ Tags: user registration, addon, file , user registration conditional logic
 Requires at least: 5.5
 Requires PHP: 7.4
 Tested up to: 6.9.4
-Stable tag: 1.5.8
+Stable tag: 1.5.9
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -43,6 +43,9 @@ Yes, the plugin is designed to work with any themes that have been coded followi
 == Screenshots ==
 
 == Changelog ==
+
+= 1.5.9    - 20/05/2026 =
+* Enhance - Conditional logic support for the membership field.
 
 = 1.5.8    - 27/04/2026 =
 * Fix      - Assign role conditionally not working despite correct settings.

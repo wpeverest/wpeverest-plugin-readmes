@@ -4,7 +4,7 @@ Tags: user registration, addon, mollie, payment gateway
 Requires at least: 5.5
 Requires PHP: 7.4
 Tested up to: 6.9
-Stable tag: 1.0.9
+Stable tag: 1.1.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -31,6 +31,13 @@ If you need help with customisation you will need to find and hire a developer c
 To install this plugin, please refer to the guide here: [http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation)
 
 == Changelog ==
+
+= 1.1.0    - 20/05/2026 =
+* Fix 	   - Customer email blank in Mollie dashboard.
+* Fix 	   - Old subscription not cancelled after upgrade.
+* Fix 	   - Duplicate customer records on membership upgrade.
+* Fix 	   - Tax breakdown absent from Mollie payment metadata.
+* Fix 	   - Tax not applied to recurring Mollie billing amounts.
 
 = 1.0.9    - 27/04/2026 =
 * Enhance  - Logger structure.

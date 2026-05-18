@@ -3,8 +3,8 @@ Contributors: WPEverest
 Tags: membership, subscription, content restriction, user profile, user registration
 Requires at least: 5.5
 Requires PHP: 7.4
-Tested up to: 6.9.4
-Stable tag: 6.1.5
+Tested up to: 7.0
+Stable tag: 6.2.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -266,11 +266,47 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 21. User Account Page –  Vertical Layout
 
 == Changelog ==
+= 6.2.0   - 20/05/2026 =
+* Refactor - Members registration process.
+* Refactor - Migrated PayPal integration from PayPal Standard to PayPal APIs.
+* Feature  - Membership pricing widget for Elementor.
+* Enhance  - Added new {{urm_bank_details}} smart tags for emails.
+* Enhance  - Trial indicator for membership field in registration form.
+* Enhance  - Membership field compatibility with Conditional logic addon.
+* Enhance  - Improved Content Restriction compatibility with  Object Caching.
+* Enhance  - Validate payment gateways test api key before updating the settings.
+* Enhance  - Payment backfill cron for missed payment and subscription updates for PayPal.
+* Enhance  - Check "Login Methods" setting before validating the provided detail by user while login.
+* Dev      - Updated Stripe SDK version to 19.4.0.
+* Dev      - Updated vulnerable packages dependencies.
+* Dev 	   - Security audit to identify vulnerabilities and resolve them.
+* Dev      - Improved analytics loading performance for large datasets and extended date ranges through batched SQL query handling.
+* Fix      - Taxes table design issues.
+* Fix      - Coupon, Tax and Upgrade Conflicts.
+* Fix      - Addons update not fetched properly.
+* Fix      - Hide label not working in Login form.
+* Fix      - Signup analytics is not recording user sign-ups.
+* Fix      - Cookie and error message handling on lost password.
+* Fix      - Wrong smart tag used in membership expiring soon email.
+* Fix      - User Export Not Ordered by Date When Using Date Range Filter.
+* Fix      - Content Restriction message not rendering smart tags properly.
+* Fix      - Update subscription status handling for manually created orders.
+* Fix      - Team Membership pricing not applied in Stripe subscription plan.
+* Fix      - Missing or incorrect text-domain for improving translation support.
+* Fix      - Validate user ownership before deleting profile picture attachments.
+* Fix      - Properly store Paypal transaction id and subscription id in database.
+* Fix      - Content Restriction Message Appears in UAE Header and Footer Templates.
+* Fix      - Missing tax calculation during membership upgrades and proration flows.
+* Fix      - Update success message icon and cookie settings for pro version activation.
+* Fix      - State-level tax configuration not appearing while adding Tax regions in settings.
+* Fix      - Emails not being sent if the registration success state is not broadcasted properly.
+* Fix      - Stripe Credit card details reset when switching membership plans in registration forms.
+* Fix      - Stripe, PayPal, Authorize.Net, and Mollie transactions not reflecting tax breakdown details.
+* Fix      - Prevented PayPal payment status from being changed from pending to completed without a successful payment.
+* Fix      - Content restriction only applied to the main content area, leaving page titles and featured images visible in Elementor.
 
 = 6.1.5    - 27/04/2026 =
-
 * Enhance  - Logger structure.
-
 * Fix      - Stripe payment bypass.
 * Fix      - Admin approval bypass.
 * Fix      - Hide comments for restricted posts.
