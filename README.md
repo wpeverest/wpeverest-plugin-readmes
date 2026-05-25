@@ -3,7 +3,7 @@
 | Plugin | Status |
 |--------|--------|
 | user-registration-woocommerce | ✓ Unchanged |
-| user-registration-file-upload | ✓ Unchanged |
+| user-registration-file-upload | 🔄 Updated |
 | user-registration-pro | 🔄 Updated |
 | user-registration | 🔄 Updated |
 | user-registration-google-sheets | ✓ Unchanged |

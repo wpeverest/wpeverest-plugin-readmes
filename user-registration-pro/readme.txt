@@ -270,6 +270,7 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 * Refactor - Members registration process.
 * Refactor - Migrated PayPal integration from PayPal Standard to PayPal APIs.
 * Feature  - Membership pricing widget for Elementor.
+* Enhance  - WordPress v7.0 compatibility.
 * Enhance  - Added new {{urm_bank_details}} smart tags for emails.
 * Enhance  - Trial indicator for membership field in registration form.
 * Enhance  - Membership field compatibility with Conditional logic addon.
@@ -301,6 +302,7 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 * Fix      - State-level tax configuration not appearing while adding Tax regions in settings.
 * Fix      - Emails not being sent if the registration success state is not broadcasted properly.
 * Fix      - Stripe Credit card details reset when switching membership plans in registration forms.
+* Fix      - Members table showing Membership and Subscription status even when membership is not used.
 * Fix      - Stripe, PayPal, Authorize.Net, and Mollie transactions not reflecting tax breakdown details.
 * Fix      - Prevented PayPal payment status from being changed from pending to completed without a successful payment.
 * Fix      - Content restriction only applied to the main content area, leaving page titles and featured images visible in Elementor.
