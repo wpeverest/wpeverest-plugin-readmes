@@ -4,7 +4,7 @@ Tags: membership, subscription, content restriction, user profile, user registra
 Requires at least: 5.5
 Requires PHP: 7.4
 Tested up to: 7.0
-Stable tag: 6.2.0
+Stable tag: 6.2.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -266,6 +266,16 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 21. User Account Page –  Vertical Layout
 
 == Changelog ==
+
+= 6.2.1   - 28/05/2026 =
+* Fix     - Stripe order validation issue.
+* Fix     - Membership upgrade action not available after disabling group add-on.
+* Fix     - Shortcodes not rendering properly in content restriction block message.
+* Fix     - Custom emails addon cannot be enabled with plus plan even available in personal.
+* Fix     - Nav menu items disappear for logged-out users when logout endpoint set to slash.
+* Fix     - File upload addon shows upgrade to premium prompt despite user having an active plan.
+* Fix     - Ensure meta_query is initialized before adding payment status condition in user payments query.
+
 = 6.2.0   - 20/05/2026 =
 * Refactor - Members registration process.
 * Refactor - Migrated PayPal integration from PayPal Standard to PayPal APIs.
