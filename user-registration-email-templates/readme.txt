@@ -4,7 +4,7 @@ Tags: user registration, addon, email templates,
 Requires at least: 5.5
 Requires PHP at least: 7.4
 Tested up to: 6.9
-Stable tag: 1.2.11
+Stable tag: 1.2.12
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -32,8 +32,10 @@ To install this plugin, please refer to the guide here: [http://codex.wordpress.
 
 == Changelog =
 
-= 1.2.11   - 18/03/2026 =
+= 1.2.12   - 26/06/2026 =
+* Fix      - Security Audit for User Registration Email Template addon.
 
+= 1.2.11   - 18/03/2026 =
 * Fix      - Cancelling Email template customizer redirected to access error page.
 * Fix      - Email setting container showing irrelevant notices.
 

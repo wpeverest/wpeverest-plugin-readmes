@@ -4,7 +4,7 @@ Tags: user registration, addon, stripe,
 Requires at least: 5.5
 Requires PHP: 7.2
 Tested up to: 7.0
-Stable tag: 1.4.0
+Stable tag: 1.4.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -32,6 +32,8 @@ To install this plugin, please refer to the guide here: [http://codex.wordpress.
 
 == Changelog ==
 
+= 1.4.1    - 25/06/2026 =
+* Fix      - Security Audit for User Registration Stripe addon.
 
 = 1.4.0    - 20/05/2026 =
 * Fix      - Stripe sdk version 19.4.0 compatibility.

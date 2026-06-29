@@ -4,7 +4,7 @@ Tags: user registration, addon, email, user registration activecampaign
 Requires at least: 5.5
 Requires PHP: 7.4
 Tested up to: 6.9
-Stable tag: 1.1.10
+Stable tag: 1.1.11
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -40,6 +40,10 @@ Yes, the plugin is designed to work with any themes that have been coded followi
 == Screenshots ==
 
 == Changelog ==
+
+= 1.1.11    - 25/06/2026 =
+* Fix - Better Logs.
+* Fix - Translations not applying via Loco Translate on WP 6.7+.
 
 = 1.1.10   - 18/03/2026 =
 * Fix      - Missing data sync to the Active campaign list.

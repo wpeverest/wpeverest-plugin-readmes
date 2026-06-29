@@ -4,7 +4,7 @@ Tags: user registration, addon, user registration private notes
 Requires at least: 5.5
 Requires PHP at least: 7.2
 Tested up to: 6.9
-Stable tag: 1.0.14
+Stable tag: 1.0.15
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -32,6 +32,10 @@ Yes, the plugin is designed to work with any themes that have been coded followi
 
 == Changelog ==
 
+= 1.0.15    - 25/06/2026 =
+* Fix       - Customize my account status check.
+* Fix       - Security Audit for User registration and its addons.
+* Fix       - Translations not applying via Loco Translate on WP 6.7+.
 
 = 1.0.14   - 12/01/2025 =
 * Fix      - Duplicate submenus.

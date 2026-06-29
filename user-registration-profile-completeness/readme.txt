@@ -4,7 +4,7 @@ Tags: user registration, addon, profile-completeness
 Requires at least: 5.2
 Requires PHP: 7.2
 Tested up to: 6.8.3
-Stable tag: 1.0.8
+Stable tag: 1.0.9
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -31,6 +31,10 @@ If you need help with customisation you will need to find and hire a developer c
 To install this plugin, please refer to the guide here: [http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation)
 
 == Changelog ==
+
+
+= 1.0.9    - 25/06/2026 =
+* Fix - Completeness Data not updating correctly when admin edits another user's profile.
 
 = 1.0.8    - 13/11/2025 =
 * Tweak    - Updated email contents and spacing.
