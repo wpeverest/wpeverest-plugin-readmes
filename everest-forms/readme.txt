@@ -4,7 +4,7 @@ Tags: contact form, custom form, form builder, forms, survey
 Requires at least: 5.5
 Tested up to: 7.0
 Requires PHP: 7.2
-Stable tag: 3.5.1
+Stable tag: 3.5.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -345,7 +345,12 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 
 == Changelog ==
 
-= 3.5.1       - 18-06-2026
+= 3.5.2       - 02-07-2026
+* Fix 		  - Improved security of the addon activation process.
+* Fix 		  - Bulk Add option not opening for Dropdown, Checkbox, and Multiple Choice fields.
+* Fix 	      - Corrected file upload validation pattern.
+
+= 3.5.1       - 15-06-2026
 * Fix 		  - Early load integration called.
 * Fix 		  - Form submission stuck on processing for forms created using ai.
 * Added 	  - Loggers in AI Form creation flow.
