@@ -3,8 +3,8 @@ Contributors: WPEverest
 Tags: user registration, addon, woocommerce, user registration woocommerce
 Requires at least: 5.5
 Requires PHP: 7.4
-Tested up to: 6.9
-Stable tag: 1.6.9
+Tested up to: 7.0
+Stable tag: 1.6.10
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -42,9 +42,12 @@ Yes, the plugin is designed to work with any themes that have been coded followi
 == Changelog ==
 
 
+= 1.6.10    - 08/07/2026 =
+* Fix       - Conflict on WooCommerce checkout page.
+
 = 1.6.9    - 25/06/2026 =
-* Fix - PHP 8.3.31 compatibility.
-* Fix - Endpoints translation via loco not working on WP 6.7+.
+* Fix      - PHP 8.3.31 compatibility.
+* Fix      - Endpoints translation via loco not working on WP 6.7+.
 
 = 1.6.8    - 18/03/2026 =
 

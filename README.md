@@ -2,10 +2,10 @@
 
 | Plugin | Status |
 |--------|--------|
-| user-registration-woocommerce | ✓ Unchanged |
+| user-registration-woocommerce | 🔄 Updated |
 | user-registration-file-upload | ✓ Unchanged |
-| user-registration-pro | ✓ Unchanged |
-| user-registration | ✓ Unchanged |
+| user-registration-pro | 🔄 Updated |
+| user-registration | 🔄 Updated |
 | user-registration-google-sheets | ✓ Unchanged |
 | user-registration-advanced-fields | ✓ Unchanged |
 | user-registration-customize-my-account | ✓ Unchanged |
@@ -14,8 +14,8 @@
 | user-registration-import-users | ✓ Unchanged |
 | user-registration-invite-codes | ✓ Unchanged |
 | user-registration-two-factor-authentication | ✓ Unchanged |
-| user-registration-authorize-net | ✓ Unchanged |
-| user-registration-mollie | ✓ Unchanged |
+| user-registration-authorize-net | 🔄 Updated |
+| user-registration-mollie | 🔄 Updated |
 | user-registration-email-templates | ✓ Unchanged |
 | user-registration-pdf-form-submission | ✓ Unchanged |
 | user-registration-mailerlite | ✓ Unchanged |
@@ -31,7 +31,7 @@
 | user-registration-mailpoet | ✓ Unchanged |
 | user-registration-salesforce | ✓ Unchanged |
 | user-registration-file-downloads | ✓ Unchanged |
-| user-registration-stripe | ✓ Unchanged |
+| user-registration-stripe | 🔄 Updated |
 | user-registration-repeater-fields | ✓ Unchanged |
 | user-registration-conversational-forms | ✓ Unchanged |
 | user-registration-calculations | ✓ Unchanged |
@@ -52,7 +52,7 @@
 | user-registration-extras | ✓ Unchanged |
 | user-registration-two-factor-authentication-totp | ✓ Unchanged |
 | everest-forms-pro | ⚠ Missing |
-| everest-forms | 🔄 Updated |
+| everest-forms | ✓ Unchanged |
 | everest-forms-google-sheets | ✓ Unchanged |
 | everest-forms-style-templates | ⚠ Missing |
 | everest-forms-icontact | ⚠ Missing |

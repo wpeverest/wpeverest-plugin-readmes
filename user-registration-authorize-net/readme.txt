@@ -4,7 +4,7 @@ Tags: user registration, addon, authorize.net,
 Requires at least: 5.5
 Requires PHP: 7.4
 Tested up to: 7.0
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -31,6 +31,10 @@ If you need help with customisation you will need to find and hire a developer c
 To install this plugin, please refer to the guide here: [http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation)
 
 == Changelog ==
+
+= 1.1.1    - 08/07/2026 =
+* Fix      - User and admin email order.
+* Fix      - Loader stuck during multiple membership purchase.
 
 = 1.1.0    - 20/05/2026 =
 Fix        - Old subscription not cancelled after upgrade.
