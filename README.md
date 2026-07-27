@@ -2,32 +2,32 @@
 
 | Plugin | Status |
 |--------|--------|
-| user-registration-woocommerce | 🔄 Updated |
+| user-registration-woocommerce | ✓ Unchanged |
 | user-registration-file-upload | ✓ Unchanged |
 | user-registration-pro | 🔄 Updated |
 | user-registration | 🔄 Updated |
 | user-registration-google-sheets | ✓ Unchanged |
 | user-registration-advanced-fields | ✓ Unchanged |
-| user-registration-customize-my-account | ✓ Unchanged |
+| user-registration-customize-my-account | 🔄 Updated |
 | user-registration-private-notes | ✓ Unchanged |
 | user-registration-conditional-logic | ✓ Unchanged |
 | user-registration-import-users | ✓ Unchanged |
 | user-registration-invite-codes | ✓ Unchanged |
-| user-registration-two-factor-authentication | ✓ Unchanged |
+| user-registration-two-factor-authentication | 🔄 Updated |
 | user-registration-authorize-net | 🔄 Updated |
 | user-registration-mollie | 🔄 Updated |
 | user-registration-email-templates | ✓ Unchanged |
 | user-registration-pdf-form-submission | ✓ Unchanged |
-| user-registration-mailerlite | ✓ Unchanged |
+| user-registration-mailerlite | 🔄 Updated |
 | user-registration-profile-connect | ✓ Unchanged |
-| user-registration-geolocation | ✓ Unchanged |
+| user-registration-geolocation | 🔄 Updated |
 | user-registration-cloud-storage | ✓ Unchanged |
-| user-registration-activecampaign | ✓ Unchanged |
-| user-registration-brevo | ✓ Unchanged |
+| user-registration-activecampaign | 🔄 Updated |
+| user-registration-brevo | 🔄 Updated |
 | user-registration-social-connect | ✓ Unchanged |
-| user-registration-convertkit | ✓ Unchanged |
-| user-registration-klaviyo | ✓ Unchanged |
-| user-registration-mailchimp | ✓ Unchanged |
+| user-registration-convertkit | 🔄 Updated |
+| user-registration-klaviyo | 🔄 Updated |
+| user-registration-mailchimp | 🔄 Updated |
 | user-registration-mailpoet | ✓ Unchanged |
 | user-registration-salesforce | ✓ Unchanged |
 | user-registration-file-downloads | ✓ Unchanged |
@@ -40,7 +40,7 @@
 | user-registration-profile-completeness | ✓ Unchanged |
 | user-registration-learndash | ✓ Unchanged |
 | user-registration-style-customizer | ✓ Unchanged |
-| user-registration-form-restriction | ✓ Unchanged |
+| user-registration-form-restriction | 🔄 Updated |
 | user-registration-field-visibility | ✓ Unchanged |
 | user-registration-multi-part | ✓ Unchanged |
 | user-registration-post-submissions | ✓ Unchanged |

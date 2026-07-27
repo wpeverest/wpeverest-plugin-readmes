@@ -4,7 +4,7 @@ Tags: user registration, addon, customize my account,
 Requires at least: 5.5
 Requires PHP at least: 7.4
 Tested up to: 6.9
-Stable tag: 1.2.16
+Stable tag: 1.2.17
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -31,6 +31,9 @@ If you need help with customisation you will need to find and hire a developer c
 To install this plugin, please refer to the guide here: [http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation)
 
 == Changelog ==
+
+= 1.2.17    - 22/07/2026 =
+* Fix       - Remove the payment tabs from admin side.
 
 = 1.2.16    - 25/06/2026 =
 * Fix       - Security Audit for Customize My Account Addon.

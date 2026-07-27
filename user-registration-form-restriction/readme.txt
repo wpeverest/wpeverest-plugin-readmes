@@ -3,7 +3,7 @@ Contributors: WPEverest
 Tags: user registration, addon, form restriction
 Requires at least: 5.2
 Tested up to: 6.8.3
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -29,6 +29,10 @@ If you need help with customisation you will need to find and hire a developer c
 To install this plugin, please refer to the guide here: [http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation)
 
 == Changelog ==
+
+= 1.0.6    - 22/07/2026 =
+* Feature  - Maxmind integration for country wise form restriction.
+* Fix      - Translations not applying via Loco Translate.
 
 = 1.0.5    - 13/11/2025 =
 * Fix      - PHP warning while using form restriction and not selecting any country.

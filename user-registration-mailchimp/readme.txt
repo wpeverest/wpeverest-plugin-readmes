@@ -4,7 +4,7 @@ Tags: user registration, addon, email, user registration mailchimp
 Requires at least: 5.5
 Requires PHP: 7.4
 Tested up to: 6.9
-Stable tag: 2.0.12
+Stable tag: 2.0.13
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -40,6 +40,11 @@ Yes, the plugin is designed to work with any themes that have been coded followi
 == Screenshots ==
 
 == Changelog ==
+
+= 2.0.13    - 23/07/2026 =
+* Fix       - UI and UX issues.
+* Fix       - Data is not sent when Conditional Logic is enabled.
+* Fix       - ArgumentCountError from sprintf format string with embedded JSON in Mailchimp logging.
 
 = 2.0.12    - 25/06/2026 =
 * Fix       - Better logs.

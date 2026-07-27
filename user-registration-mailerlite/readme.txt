@@ -4,7 +4,7 @@ Tags: user registration, addon, mailerlite
 Requires at least: 5.5
 Requires PHP at least: 7.4
 Tested up to: 6.9
-Stable tag: 1.20.0
+Stable tag: 2.0.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -31,9 +31,9 @@ To install this plugin, please refer to the guide here: [http://codex.wordpress.
 
 == Changelog ==
 
-= 1.20.0   - 12/01/2026 =
-* Enhance  - Rearrange settings order.
-* Enhance  - Membership plan support on mailerlite.
+= 2.0.0   - 22/07/2026 =
+* Enhance  - Logger.
+* Fix      - UI and UX issues.
 
 = 1.1.9    - 13/11/2025 =
 * Feature  - Send data to multiple lists groups.
