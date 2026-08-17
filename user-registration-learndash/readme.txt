@@ -3,8 +3,8 @@ Contributors: WPEverest
 Tags: user registration, addon, learndash, courses
 Requires at least: 5.5
 Requires PHP: 7.2
-Tested up to: 6.8.3
-Stable tag: 1.1.12
+Tested up to: 7.0.3
+Stable tag: 1.1.13
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -30,6 +30,9 @@ If you need help with customisation you will need to find and hire a developer c
 To install this plugin, please refer to the guide here: [http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation)
 
 == Changelog ==
+
+= 1.1.13   - 11/08/2026 =
+* Fix      - Conditional LearnDash course assignment not respecting the conditions.
 
 = 1.1.12   - 13/11/2025 =
 * Fix      - Courses not being rendered when WPML is activated.

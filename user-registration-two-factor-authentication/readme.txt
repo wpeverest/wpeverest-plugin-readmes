@@ -3,8 +3,8 @@ Contributors: WPEverest
 Tags: user registration, addon, two-factor-authentication
 Requires at least: 5.5
 Requires PHP: 7.4
-Tested up to: 6.9
-Stable tag: 1.1.9
+Tested up to: 7.0.3
+Stable tag: 1.2.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -31,6 +31,11 @@ If you need help with customisation you will need to find and hire a developer c
 To install this plugin, please refer to the guide here: [http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation)
 
 == Changelog ==
+
+= 1.2.0    - 11/08/2026 =
+* Fix      - Unconditional Rewrite Flush.
+* Fix      - OTP redirect generates an invalid URL on plain permalinks.
+
 
 = 1.1.9    - 22/07/2026 =
 * Fix      - OTP page redirect to the active language's translated page.

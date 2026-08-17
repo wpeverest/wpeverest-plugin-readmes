@@ -3,8 +3,8 @@ Contributors: WPEverest
 Tags: user registration, addon, social connect, user registration social connect
 Requires at least: 5.2
 Requires PHP: 7.4
-Tested up to: 6.9
-Stable tag: 1.5.6
+Tested up to: 7.0.3
+Stable tag: 1.5.7
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -37,9 +37,24 @@ Get [free support](https://wpuserregistration.com/support/)
 
 Yes, the plugin is designed to work with any themes that have been coded following WordPress guidelines.
 
+= Social login redirects through a brief "Signing you in…" page instead of logging in immediately - why, and can I turn it off? =
+
+Some hosts and CDNs strip the login cookie from the page that completes a social login, since that page is technically requested via GET and some caching layers treat all GET responses as safe to cache/share, cookies and all. When that happens, the plugin creates or matches your account correctly, but you're never actually logged in and land back on the login page as if nothing happened.
+
+To avoid that, social login completes over an extra intermediate step: a short "Signing you in…" page that immediately forwards you along. This adds a small delay (well under a second) to every social login, but works correctly regardless of your host's caching setup.
+
+If you've confirmed your host doesn't strip cookies this way and want to skip that extra step, add this to your theme's `functions.php` or a custom plugin:
+
+`add_filter( 'ursc_enable_post_login_finalize', '__return_false' );`
+
 == Screenshots ==
 
 == Changelog ==
+
+= 1.5.7    - 11/08/2026 =
+* Fix      - Translations not applying via Loco Translate.
+* Fix      - Social login cookie stripped by GET response caching on some hosts.
+
 
 = 1.5.6    - 12/01/2026 =
 * Tweak	   - Rearranged setting placement.

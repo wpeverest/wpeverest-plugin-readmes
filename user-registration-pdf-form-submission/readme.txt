@@ -3,8 +3,8 @@ Contributors: WPEverest
 Tags: user registration, addon, pdf, form submission, export, email attachment
 Requires at least: 5.2
 Requires PHP at least: 7.4
-Tested up to: 6.9
-Stable tag: 1.2.7
+Tested up to: 7.0.3
+Stable tag: 1.2.8
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -41,6 +41,9 @@ Yes, the plugin is designed to work with any themes that have been coded followi
 == Screenshots ==
 
 == Changelog ==
+
+= 1.2.8    - 11/08/2026 =
+* Enhance  - Add Korean and Japanese font support for PDF generation.
 
 = 1.2.7    - 12/01/2026 =
 * Enhance  - Rearrange settings placement.
